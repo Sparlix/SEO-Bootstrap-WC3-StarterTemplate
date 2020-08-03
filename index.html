@@ -11,44 +11,57 @@
         <!-- Set theme Color of navigation -->
         <meta name="theme-color" content="#ff2f"/>
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" async>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <!-- CSS PAGE WITH CSS RESET -->
-        <link rel="stylesheet" href="css/style.css" async>
+        <link rel="stylesheet" href="css/style.css" >
         <!-- Make sure to include your keyword in the title! -->
         <title>SEO and Bootstrap Template for Best Practices, Use this template to gain a head start with to SEO and Bootstrap!</title>
         <!-- Json-LD -->
-        <script type="application/ld+json">
-            {"@context":"https://schema.org","@type":"ComputerStore","name":"Starter Template","address":{"@type":"PostalAddress","streetAddress":"123 N Street Rd","addressLocality":"New York","addressRegion":"NY","postalCode":"12345"},"image":"https://myimagehere.com","email":"myemail@example.com","telePhone":"123-456-7891","url":"https://www.myurl.com","paymentAccepted":["credit card","paypal"],"openingHours":"Mo,Tu,We,Th,Fr,Sa,Su 08:00-22:00","openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"08:00","closes":"22:00"}],"geo":{"@type":"GeoCoordinates","latitude":"40.716971","longitude":"-73.960788"},"priceRange":"$"}
-        </script>
+       
     </head>
-    <!-- END OF HEAD -->
-    <!-- START -->
 
     <body>
-        <!-- Use the header across all pages of site  -->
         <header>
-            <h1>Welcome to Seo and Bootstrap Template</h1>
-            <nav>
-                <ul>
-                    <li>
-                        <h2><a href="#"><img alt="Navigation"></a></img></h2>
-                    </li>
-                    <li><a href="#">Our team</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-                <form>
-                    <label for="search">Search Our Site</label>
-                    <input type="search" name="q" placeholder="Search query" id="search">
-                    <input type="submit" value="Go!" id="searchsubmit">
-                    <label for="searchsubmit">Submit Search</label>
-                </form>
-            </nav>
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
         </header>
         <hr>
         <br>
+    
         <main class="container">
             <article>
+                <!-- Include Keywords -->
+                <h2>Article Heading</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.</p>
+            </article>
+        </main>
+        <br>
+        <!-- You Can Add <Asides> Here they act like Articles with outlining -->
+        <!-- Use this footer across all pages of wesbite -->
+        <hr>
+        <section class="content-section">
+            <article class="container">
                 <!-- Include Keywords -->
                 <h2>Article Heading</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.</p>
@@ -61,25 +74,75 @@
                 <p>Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum soclis natoque penatibus et manis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.</p>
                 <p>Vivamus fermentum semper porta. Nunc diam velit, adipscing ut tristique vitae sagittis vel odio. Maecenas convallis ullamcorper ultricied. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis velit, is fringille sem nunc vet mi.</p>
             </article>
-        </main>
-        <br>
-        <!-- You Can Add <Asides> Here they act like Articles with outlining -->
-        <!-- Use this footer across all pages of wesbite -->
+        </section>
         <hr>
-        <footer>
-            <h2><img src="" alt="Footer"></h2>
-            <p>©Copyright 2050 by nobody. All rights reversed.</p>
-        </footer>
-        <!-- jQuery first, then Popper.js, then Bootstrap JS THIS IS MINIFIED -->
-        <script crossorigin=anonymous src=https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js async></script><script crossorigin=anonymous src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js integrity=sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 async></script><script crossorigin=anonymous src=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js integrity=sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM async></script>
-    </body>
+        <section class="image-section-container ">
+            <div class="image-header container">
+                <h2>Image Heading</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.</p>
+            </div>
+            <div class="image-section">
+                <img src="https://via.placeholder.com/450" alt="image placeholder">
+                <img src="https://via.placeholder.com/450" alt="image placeholder">
+                <img src="https://via.placeholder.com/450" alt="image placeholder">
+            </div>
+
+        </section>
+        <hr>
+<!-- Footer -->
+<footer class="page-footer font-small teal pt-4 navbar-fixed-bottom">
+
+    <!-- Footer Text -->
+    <div class="container-fluid text-center text-md-left">
+  
+      <!-- Grid row -->
+      <div class="row">
+  
+        <!-- Grid column -->
+        <div class="col-md-6 mt-md-0 mt-3">
+  
+          <!-- Content -->
+          <h5 class="text-uppercase font-weight-bold">Footer text 1</h5>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sapiente sint, nulla, nihil
+            repudiandae commodi voluptatibus corrupti animi sequi aliquid magnam debitis, maxime quam recusandae
+            harum esse fugiat. Itaque, culpa?</p>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none pb-3">
+  
+        <!-- Grid column -->
+        <div class="col-md-6 mb-md-0 mb-3">
+  
+          <!-- Content -->
+          <h5 class="text-uppercase font-weight-bold">Footer text 2</h5>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio deserunt fuga perferendis modi earum
+            commodi aperiam temporibus quod nulla nesciunt aliquid debitis ullam omnis quos ipsam, aspernatur id
+            excepturi hic.</p>
+  
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Grid row -->
+  
+    </div>
+    <!-- Footer Text -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="https://github.com/Sparlix/SEO-Bootstrap-WC3-StarterTemplate"> github.com</a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      </body>
 
 </html>
-<!-- PLEASE USE W3C Standards to help with accessibility
-W3C - https://www.w3.org/Consortium/
-Semantic HTML - https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure
-WAI-ARIA Authoring - https://www.w3.org/TR/wai-aria-practices
-
-Make sure you are running HTTP2.0
-    
--->
